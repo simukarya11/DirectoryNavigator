@@ -1,7 +1,8 @@
 #![allow(non_snake_case)]
-mod directory_navigator;
 
-pub use directory_navigator::*;
+mod DirectoryNavigator;
+
+pub use DirectoryNavigator::*;
 
 #[cfg(test)]
 mod tests {
