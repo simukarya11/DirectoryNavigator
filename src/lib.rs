@@ -1,8 +1,10 @@
 #![allow(non_snake_case)]
 
-mod DirectoryNavigator;
+pub mod DirectorySearchEventTrait;
+mod directory_navigator;
 
-pub use DirectoryNavigator::*;
+pub use DirectorySearchEventTrait::*;
+pub use directory_navigator::*;
 
 #[cfg(test)]
 mod tests {
